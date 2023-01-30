@@ -52,6 +52,12 @@
     color: var(--black-color);
 }
 
+.navbar__links > li > a.menu:hover{
+    color: #363434;
+    border-bottom: 1px solid #363434;
+    font-weight: 400;
+}
+
 .navbar__links--cta  {
     background-color: var(--black-color);
     border-radius: 0.3rem;
@@ -59,6 +65,10 @@
 }
 .navbar__links--cta > a {
     color: var(--white-color) !important;
+}
+
+.navbar__links--cta:hover{
+    background-color: #363434;
 }
 
 /* hero section css */
@@ -81,8 +91,13 @@
 .hero__title {
     font-weight: bold;
     color: var(--black-color);
-    font-size: 42px;
+    font-size: 45px;
     margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hero__title:hover{
+    color: #363434;
 }
 
 .hero__details{
@@ -92,11 +107,11 @@
 
 .hero__description{
     color: var(--gray-color);
-    margin: 15px 0;
+    margin: 20px 0 20px 0;
 }
 
 .hero_stats{
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 20px;
     color: var(--black-color);
 }
@@ -112,6 +127,11 @@
     border-radius: 5px;
     border: 1px solid var(--black-color);
     margin-right: 15px;
+    cursor: pointer;
+}
+
+.hero__action--cta:hover{
+    background-color: rgb(54, 52, 52);
 }
 
 .hero__action--terms{
@@ -120,6 +140,12 @@
     padding: 10px 12px;
     border-radius: 5px;
     border: 1px solid var(--pink-color);
+    cursor: pointer;
+}
+
+.hero__action--terms:hover{
+    background-color: #fc6e85;
+    color: var(--white-color);
 }
 
 /* Media queries for small devices */
