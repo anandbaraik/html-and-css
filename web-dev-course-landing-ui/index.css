@@ -108,14 +108,18 @@
 .hero__action--cta {
     color: var(--white-color);
     background-color: var(--black-color);
-    padding: 12px 8px;
+    padding: 10px 12px;
     border-radius: 5px;
-    text-decoration: none;
+    border: 1px solid var(--black-color);
+    margin-right: 15px;
 }
 
 .hero__action--terms{
     color: var(--pink-color);
-    text-decoration: none;
+    background-color: var(--white-color);
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid var(--pink-color);
 }
 
 /* Media queries for small devices */
